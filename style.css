@@ -1,8 +1,9 @@
 body {  
     font-size: 13px;  
+    color: #202124;
    }  
 .page{
-    padding-top: 20vh;
+    padding-top: 0vh;
     text-align: center;
     padding-bottom: 20px;
     
@@ -15,7 +16,20 @@ body {
     height: 35px;
     width: 35px;
   }
-
+.header{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    padding-top: 3px;
+    padding-bottom: 18px;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 18px;
+}
 .top{
     padding-top: 0;
     padding-bottom: 0;
@@ -24,17 +38,18 @@ body {
     color: white;
 }
 .logo{
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .search{
-    width:55vw;
+    width: 449px;    
+    height: 4.33rem;
     padding-bottom: 14px;
     border: 1px solid #d9d9d9;  
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat;  
   background-position: 98.5%;  
   background-size: 1.5em;  
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 24px 24px 24px 24px;
 }
 .search:hover {  
     border: 1px solid #b9b9b9;  
@@ -89,14 +104,14 @@ body {
 .nav-pills { 
     display: inline-flex; 
     margin: 15px;  
-    padding:6px;
+    padding:3px;
     float: right;
    }  
 
 .nav li{
-    margin-left: 8px;
+    margin-left: 6px;
     margin-right: 8px;
-flex-grow: 1;
+    flex-grow: 1;
     display: inline-block;
 }
 .firstsbuttons {  
